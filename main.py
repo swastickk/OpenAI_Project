@@ -252,3 +252,18 @@ if __name__ == '__main__':
         os.makedirs(app.config['UPLOAD_FOLDER'])
     app.run(host="0.0.0.0", port=5003, debug=True)
 
+
+
+
+
+
+
+# {
+#     "version":2,
+#     "builds":[
+#         {"src":"app.py","use":"@vercel/python"}
+#     ],
+#     "routes":[
+#         {"src":"/(.*)","dest":"app.py"}
+#     ]
+# }
